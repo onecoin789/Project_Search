@@ -11,9 +11,7 @@ import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.project_search.adapter.SearchAdapter
 import com.example.project_search.adapter.SearchListAdapter
-import com.example.project_search.data.ImageResponse
 import com.example.project_search.data.KakaoImageData
 import com.example.project_search.databinding.FragmentSearchBinding
 import com.example.project_search.retrofit.RetrofitClient
@@ -22,9 +20,6 @@ import com.google.gson.Gson
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 
 
 class SearchFragment : Fragment() {
